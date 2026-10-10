@@ -1,0 +1,92 @@
+@import url(./fonts.css);
+@import url(./colors.css);
+* {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Noto Sans Mongolian", sans-serif;
+}
+
+.font-orange {
+  color: var(--laranja);
+}
+
+#conteiner-principal {
+  width: 100vw;
+  z-index: -10;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#barra-navegacao {
+  z-index: 1;
+  width: 98%;
+  height: 90px;
+  border-bottom: 1px solid gray;
+  display: flex;
+  align-items: center;
+}
+
+#itens-nav {
+  margin-left: auto;
+  display: flex;
+  height: 100%;
+}
+
+.nav-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding-left: 10px;
+  padding-right: 10px;
+  height: 100%;
+  font-size: 15pt;
+  text-align: center;
+}
+
+.nav-item:hover {
+  background-color: var(--laranja);
+  color: azure;
+  transition: 0.3s;
+  padding-top: 10px;
+}
+
+#titulo-marca {
+  font-family: "Audiowide";
+}
+
+#config-usuario {
+  right: 10px;
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+#config-usuario h2 {
+  font-size: 17pt;
+  font-weight: 500;
+}
+
+#imagem-usuario button {
+  border-radius: 25px;
+  margin-right: 8px;
+}
+
+#imagem-usuario img {
+  height: 50px;
+  border-radius: 25px;
+}
+
+#config-usuario:hover {
+  box-shadow: 0 0 10px rgb(138, 138, 138);
+  background-color: var(--laranja);
+  color: aliceblue;
+  transition: 0.2s;
+  cursor: pointer;
+}
