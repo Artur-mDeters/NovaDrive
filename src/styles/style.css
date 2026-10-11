@@ -90,3 +90,8 @@
   transition: 0.2s;
   cursor: pointer;
 }
+
+#barra-lateral {
+  background-color: aqua;
+  margin-right: auto;
+}
